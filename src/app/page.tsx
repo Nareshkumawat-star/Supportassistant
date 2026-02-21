@@ -7,7 +7,7 @@ export default async function Home() {
   console.log("Session in Home:", session);
   return (
     <>
-      <HomeClient />
+      <HomeClient email={session?.email} />
     </>
   );
 }
