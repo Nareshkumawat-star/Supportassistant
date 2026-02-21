@@ -1,6 +1,6 @@
 import { connect } from "mongoose";
 
-const mongo_url = process.env.MONGODB_URI || process.env.MONGODB_URL;
+const mongo_url = (process.env.MONGODB_URI || process.env.MONGODB_URL || "").trim();
 
 if (!mongo_url) {
     throw new Error("Please provide a MongoDB URI (MONGODB_URI or MONGODB_URL)");

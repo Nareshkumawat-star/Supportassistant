@@ -9,7 +9,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Chatbot AI - Embed Assistant",
+  title: "SmartAssist AI - Embed Assistant",
   description: "Create a custom AI assistant for your website with just a few lines of code.",
 };
 

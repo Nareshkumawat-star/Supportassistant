@@ -1,0 +1,12 @@
+HTTP/1.1 500 Internal Server Error
+vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+access-control-allow-headers: Content-Type, Authorization
+access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+access-control-allow-origin: *
+content-type: application/json
+Date: Sat, 21 Feb 2026 05:55:15 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"error":"SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2) - SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parseJSONFromBytes (node:internal/deps/undici/undici:6433:19)\n    at successSteps (node:internal/deps/undici/undici:6414:27)\n    at readAllBytes (node:internal/deps/undici/undici:5380:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
