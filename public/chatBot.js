@@ -1,5 +1,5 @@
 (function () {
-    const api_url = "https://supportassistant.vercel.app/chatBot.js/api/chat";
+    const api_url = "https://supportassistant.vercel.app/api/chat";
     const scriptTag = document.currentScript;
     const ownerId = scriptTag.getAttribute("data-owner-id");
 

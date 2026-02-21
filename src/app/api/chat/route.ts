@@ -52,7 +52,7 @@ ANSWER:
 
         const ai = new GoogleGenAI({ apiKey: (process.env.GEMINI_API_KEY || "").trim() });
         const res = await ai.models.generateContent({
-            model: "gemini-2.5-flash",
+            model: "gemini-1.5-flash",
             contents: Prompt
         })
         const response = NextResponse.json({ response: res.text }, { status: 201 });
